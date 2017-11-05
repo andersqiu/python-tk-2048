@@ -8,5 +8,6 @@ $ python pytk2048.py
 ```
 
 Here is the screenshot on Windows:
+
 ![](2048.png)
 
