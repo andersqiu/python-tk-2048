@@ -6,7 +6,7 @@ Both Python 2.x and Python 3.x are supported.
 Make sure the `tkinter` module is available for your Python interpreter.
 * For Linux system, the tk package may not be installed by default. So you need to install it first.
   
-  - For Ubuntu and Debian based Linux distributions:
+  - For Ubuntu and Debian based distributions:
   ```
   $ sudo apt-get install python-tk 	# For Python 2.x
   $ sudo apt-get install python3-tk 	# For Python 3.x

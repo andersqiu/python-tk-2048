@@ -237,7 +237,7 @@ class Game:
             pass
 
         self.panel.paint()
-        print('Scores: {}'.format(self.grid.current_score))
+        print('Score: {}'.format(self.grid.current_score))
         if self.grid.found_2048():
             self.you_win()
             if not self.keep_playing:
