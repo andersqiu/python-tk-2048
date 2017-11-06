@@ -32,3 +32,4 @@ Make sure the `tkinter` module is available for your Python interpreter.
 
   ![](2048.png)
 
+After you launch the 2048 game UI, you can either press `arrow keys` or  `w, a, s, d` keys to play the game, enjoy it!
