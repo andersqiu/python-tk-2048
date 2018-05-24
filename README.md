@@ -18,6 +18,8 @@ Make sure the `tkinter` module is available for your Python interpreter.
   $ sudo yum install python3-tkinter 	# For Python 3.x
   ``` 
   
+  **Notice**: `python2-tkinter` may not be found in CentOS 7.x Everything iso. 
+  
   Then you can launch the game:
   ```
   $ python pytk2048.py
