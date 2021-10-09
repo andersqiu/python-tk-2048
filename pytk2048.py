@@ -159,6 +159,7 @@ class GamePanel:
         self.grid = grid
         self.root = tk.Tk()
         self.root.title('2048')
+        self.root.resizable(False, False)
         self.background = tk.Frame(self.root, bg=GamePanel.BACKGROUND_COLOR)
         self.cell_labels = []
         for i in range(self.grid.size):
