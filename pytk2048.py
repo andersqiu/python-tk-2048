@@ -133,7 +133,7 @@ class GamePanel:
         '512': '#edc850',
         '1024': '#edc53f',
         '2048': '#edc22e',
-        'beyond': '3c3a32'
+        'beyond': '#3c3a32'
     }
     CELL_COLOR_DICT = {
         '2': '#776e65',
