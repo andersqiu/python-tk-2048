@@ -5,7 +5,7 @@ try:
 except:
     import Tkinter as tk # For Python 2
     import tkMessageBox as messagebox
-
+import sys
 import random
 
 
@@ -158,6 +158,8 @@ class GamePanel:
     def __init__(self, grid):
         self.grid = grid
         self.root = tk.Tk()
+        if sys.platform == 'win32':
+            self.root.iconbitmap('2048.ico')
         self.root.title('2048')
         self.root.resizable(False, False)
         self.background = tk.Frame(self.root, bg=GamePanel.BACKGROUND_COLOR)
