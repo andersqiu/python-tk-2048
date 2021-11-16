@@ -174,7 +174,7 @@ class GamePanel:
                 label.grid(row=i, column=j, padx=10, pady=10)
                 row_labels.append(label)
             self.cell_labels.append(row_labels)
-        self.background.grid()
+        self.background.pack(side=tk.TOP)
 
     def paint(self):
         for i in range(self.grid.size):
